@@ -13,7 +13,7 @@ function Navbar() {
           <Link to="/podcasts">Podcasts</Link>
         </li>
         <li>
-          <Link to="/movies">Movie List</Link>
+          <Link to="/movieslist">Movie List</Link>
         </li>
       </ul>
     </div>

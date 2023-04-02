@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Podcasts from './pages/Podcasts';
-import Movies from './movies';
+import MoviesList from './pages/MoviesList';
 
 const router = createBrowserRouter([
   {
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     element: <Podcasts />,
   },
   {
-    path: 'movies',
-    element: <Movies />,
+    path: 'movieslist',
+    element: <MoviesList />,
   },
 ]);
 
